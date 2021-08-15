@@ -13,6 +13,10 @@ Using a node.js file, data can be created, updated, or deleted to fit the needs 
 
 ### Video Walkthrough
 
+
+https://user-images.githubusercontent.com/72705457/129490928-a55ca860-40db-4ac0-83ce-26feee1d6289.mp4
+
+
 ## Installation
 
 Requires Node.js to run from the command line
