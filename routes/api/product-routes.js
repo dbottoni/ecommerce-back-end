@@ -149,7 +149,7 @@ router.delete('/:id', (req, res) => {
     }
     res.json(dbProductData);
   })
-  .catahc(err => {
+  .catch(err => {
     console.log(err);
     res.status(500).json(err);
   });
