@@ -23,8 +23,8 @@ To maintain an e-commere database using back end technologies.
 
 ## Technology
 
-Node.js
-MySQL2
-Sequelize
-Express
-DotEnv
+- Node.js
+- MySQL2
+- Sequelize
+- Express
+- DotEnv
