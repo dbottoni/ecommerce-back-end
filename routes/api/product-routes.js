@@ -48,11 +48,17 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(dbProductData => res.json(dbProductData))
+  .then(dbProductData => {
+    if(!dbProductData) {
+      res.status(404).json({ message: 'Product does not exist '});
+      return;
+    }
+    res.json(dbProductData);
+  })
   .catch(err => {
     console.log(err);
-    res.status(500).json(err);
-  });
+    res.status.json(err);
+  })
 });
 
 // create new product
