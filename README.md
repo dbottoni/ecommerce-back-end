@@ -19,7 +19,7 @@ Requires Node.js to run from the command line
 
 ## Usage
 
-This application is used to quickly view all existing and add new departments, employees, and roles. It can also be used to update an existing employees role.
+To maintain an e-commere database using back end technologies.
 
 ## Technology
 
